@@ -45,7 +45,7 @@ def main():
     password = '"]$XA' + "'B7;=yp<E+;4;yJZdm~s3ukYpL@"
 
     # Local variables
-    output_thermo_filename = "TempFile_Aug_11_2pm.txt"
+    output_thermo_filename = "TempFile_Aug_11_430pm.txt"
     output_current_filename = "CurrentFile.txt"
 
     # Let the games begin

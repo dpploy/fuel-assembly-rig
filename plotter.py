@@ -64,7 +64,7 @@ def gen_twin_plot(data,dynamic=False):
     ax2.set_position([box2.x0, box2.y0, box2.width * 0.8, box2.height])
     ax2.grid()
 
-    plt.savefig(str(time.time()) + ".png", dpi=300)
+    #plt.savefig(str(time.time()) + ".png", dpi=300)
     #plt.show()
     new_data = [times_list, temp_list, cur_timestamp_list, watt_list]
 
@@ -72,8 +72,8 @@ def gen_twin_plot(data,dynamic=False):
 
 def rescan_files(extra_data=False):
     # Copies data files to temporary files
-    shutil.copy("TempFile_Aug_11_2pm.txt", "copied_temp_file.txt")
-    shutil.copy("../CurrentFile_Aug_11_2pm.txt.txt", "copied_current_file.txt")
+    shutil.copy("Final_Backup_8_12_22_535pm/simplePlotter.txt", "copied_temp_file.txt")
+    shutil.copy("../CurrentFile_Aug_11_430pm.txt", "copied_current_file.txt")
 
     # Initialize data lists
     average_temp_list = []

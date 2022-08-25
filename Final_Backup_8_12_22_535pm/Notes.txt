@@ -1,0 +1,4 @@
+heater turned off around 115 minutes
+at 175 minutes, pump turned on and ran at various speeds, no heating
+from minutes 25-50, just filling tank with water, no heating until about minute 60
+around minute 200, mff was adjusted directly under the water jet, then pump was run for about a minute
